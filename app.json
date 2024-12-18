@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ExpoTest",
-    "slug": "ExpoTest",
+    "slug": "solarsecureform",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.het_patel.solarsecureform"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "add1c2d1-b2ed-43ee-b39a-f76f8ed7ca09"
+      }
+    },
+    "owner": "het_patel"
   }
 }
